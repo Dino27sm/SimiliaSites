@@ -1,0 +1,91 @@
+/***********************************/
+/*           HEADER                */
+/***********************************/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #ffd8a8;
+  padding: 0 3.2rem;
+
+  /* Fixed HEIGHT because later header 
+  will be used as a stiky element */
+  height: 8rem;
+}
+
+.logo-img {
+  height: 6.4rem;
+}
+
+.logo-box {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.logo-info {
+  height: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo-info p:nth-child(1) {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #fd7e14;
+}
+
+.logo-info p:nth-child(2) {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1c7ed6;
+}
+/***********************************/
+/*          NAVIGATION             */
+/***********************************/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fd7e14;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/* MOBILE NAVIGATION */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
