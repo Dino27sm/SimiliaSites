@@ -113,17 +113,13 @@
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
 
-  align-items: start;
+  align-items: center;
   justify-content: center;
 }
 
 .home-img {
   width: 100%;
   height: auto;
-}
-
-.home-img-box {
-  align-self: center;
 }
 
 .home-tex-box p:last-child {
