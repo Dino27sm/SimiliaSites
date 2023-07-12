@@ -63,6 +63,8 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.8rem;
   font-size: 1.8rem;
   font-weight: 600;
   color: #fd7e14;
@@ -74,26 +76,18 @@
   color: #cf711f;
 }
 
-/* SIGN-IN Button */
+/* SIGN-IN Button ============= */
 .btn-sign-in {
   border: none;
   background: none;
-}
-
-/* .sign-in-link {
-  display: block;
-  background-color: #ffe8cc;
-  padding: 1rem 1.8rem;
-  border: none;
   border-radius: 0.8rem;
-} */
+}
 
 .sign-in-link {
   display: block;
   text-decoration: none;
   background-color: #ffe8cc;
-  padding: 1rem 1.8rem;
-  /* border: none; */
+  padding: 0.8rem 1.6rem;
   border-radius: 0.8rem;
   font-size: 1.8rem;
   font-weight: 600;
@@ -101,7 +95,7 @@
   transition: all 0.3s;
 }
 
-.btn-sign-in:hover .sign-in-link {
+.sign-in-link:hover {
   color: #cf711f;
   background-color: #fff4e6;
 }
