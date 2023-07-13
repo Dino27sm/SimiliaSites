@@ -58,7 +58,7 @@ Default: 9px;
   box-sizing: border-box;
 }
 
-/* To display borders when TAB key is in use ==== */
+/* To display borders when TAB key is in use  */
 *:focus {
   outline: none;
   box-shadow: 0 0 0 0.3rem rgba(230, 125, 34, 0.5);
