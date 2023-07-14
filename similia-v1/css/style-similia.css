@@ -130,8 +130,19 @@
 /*       HOW IT WORKS Section      */
 /***********************************/
 .how-it-works-section {
-  background-color: #e7e7e7;
-  padding: 1.6rem 4.8rem;
+  background-color: #fff4e6;
+  padding: 2.4rem 4.8rem;
+}
+
+.how-it-works-container {
+  display: grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.how-it-works-img {
+  width: 100%;
 }
 
 /***********************************/
