@@ -127,6 +127,14 @@
 }
 
 /***********************************/
+/*       HOW IT WORKS Section      */
+/***********************************/
+.how-it-works-section {
+  background-color: #e7e7e7;
+  padding: 1.6rem 4.8rem;
+}
+
+/***********************************/
 /*         PARTNERS Section          */
 /***********************************/
 .partners-section {
