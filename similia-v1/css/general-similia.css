@@ -137,8 +137,11 @@ body {
 /* ======================================= */
 /* SPAN Parameters  */
 .span-primary {
-  font-weight: 400;
-  color: #333;
-  font-size: 1.6rem;
-  line-height: 1.2;
+  display: block;
+  font-weight: 600;
+  color: #fd7e14;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
 }
