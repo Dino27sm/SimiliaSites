@@ -104,6 +104,8 @@
   color: #cf711f;
   background-color: #fff4e6;
 }
+
+/* ====== ARROW UP ================ */
 .arrow-up {
   height: 5.2rem;
   width: 5.2rem;
@@ -134,7 +136,8 @@
 }
 
 .arrow-up:hover {
-  background-color: #ececec;
+  /* background-color: #bddaff; */
+  background-color: #f7f7f7;
 }
 
 /***********************************/
