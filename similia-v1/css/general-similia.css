@@ -73,12 +73,16 @@ html {
 }
 
 body {
-  max-width: 120rem;
-  margin: 0 auto;
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+  background-color: #fff4e6;
+}
+
+.container-width-1200 {
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 /* ======================================= */
