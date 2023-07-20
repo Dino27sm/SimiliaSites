@@ -27,6 +27,7 @@ Lrge: 1.8;
 - Shades: #eb984e
 - Accents: #cf711f;
 - Greys:
+#73563c; #b67342
 #888;
 #767676; 
 #6f6f6f; 
@@ -94,7 +95,8 @@ body {
 .heading-fifth {
   font-weight: 700;
   letter-spacing: -0.5px;
-  color: #333;
+  /* color: #333; */
+  color: #73563c;
 }
 
 .heading-first {
@@ -142,10 +144,10 @@ body {
 /* SPAN Parameters  */
 .span-primary {
   display: block;
-  font-weight: 600;
+  font-weight: 500;
   color: #fd7e14;
+  /* color: #b67342; */
   font-size: 1.8rem;
   line-height: 1.6;
   margin-bottom: 1.6rem;
-  text-transform: uppercase;
 }
