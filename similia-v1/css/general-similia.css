@@ -117,6 +117,12 @@ body {
   line-height: 1;
   margin-bottom: 1.2rem;
 }
+
+.heading-fifth {
+  font-size: 1.2rem;
+  line-height: 1;
+  margin-bottom: 1.2rem;
+}
 /* ======================================= */
 /* PARAGRAPH Parameters  */
 .paragraph-primary {
