@@ -245,16 +245,41 @@
 /*         PARTNERS Section          */
 /***********************************/
 .partners-section {
-  padding: 1.6rem 4.8rem;
+  padding: 4.8rem;
+  margin-bottom: 6.4rem;
 }
 
 .partners-box {
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
 }
 
+.partners-img-box {
+  height: 14rem;
+  width: 12rem;
+  background-color: #fff;
+  border-radius: 0.8rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aquasource-img {
+  width: 80%;
+}
+
+.schuessler-img {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.partners-img-box p {
+  margin-bottom: 1.8rem;
+}
 /***********************************/
 /*         FOOTER Section          */
 /***********************************/
