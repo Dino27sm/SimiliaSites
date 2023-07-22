@@ -280,6 +280,28 @@
 .partners-img-box p {
   margin-bottom: 1.8rem;
 }
+
+/***********************************/
+/*         CONTACT Section          */
+/***********************************/
+.contact-section {
+  padding: 4.8rem;
+  margin-bottom: 6.4rem;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.img-location-map {
+  width: 100%;
+}
+
+.img-gps-coordinates {
+  width: 45%;
+}
 /***********************************/
 /*         FOOTER Section          */
 /***********************************/
