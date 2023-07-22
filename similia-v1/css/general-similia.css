@@ -81,6 +81,10 @@ body {
   margin: 0 auto;
 }
 
+.container-header-background {
+  height: 10.6rem;
+  background-color: #fff4e6;
+}
 /* ======================================= */
 /* HEADING Parameters  */
 .heading-first,
@@ -151,4 +155,9 @@ body {
   font-size: 1.8rem;
   line-height: 1.6;
   margin-bottom: 1.6rem;
+}
+
+/* ======= PADDING for ALL SECTIONS ========= */
+.section-padding-0-48 {
+  padding: 0 4.8rem;
 }
