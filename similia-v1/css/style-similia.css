@@ -148,8 +148,8 @@
 /***********************************/
 /*          HOME Section           */
 /***********************************/
-.home-section {
-  height: 44rem;
+.home-article {
+  height: 40rem;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -167,7 +167,6 @@
 
 .home-img {
   width: 100%;
-  margin: 1.6rem 0;
 }
 
 .home-tex-box p:last-child {
@@ -177,7 +176,7 @@
 /***********************************/
 /*       HOW IT WORKS Section      */
 /***********************************/
-.how-it-works-container {
+.how-it-works-article {
   height: 76rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
