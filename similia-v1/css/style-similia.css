@@ -275,6 +275,11 @@
   gap: 4rem;
 }
 
+.contact-addess {
+  color: #73563c;
+  font-weight: 600;
+}
+
 .img-location-map {
   width: 100%;
 }
