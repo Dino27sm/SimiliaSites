@@ -148,7 +148,7 @@
 /***********************************/
 /*          HOME Section           */
 /***********************************/
-.home-article {
+.home-container {
   height: 40rem;
 
   display: grid;
@@ -176,7 +176,7 @@
 /***********************************/
 /*       HOW IT WORKS Section      */
 /***********************************/
-.how-it-works-article {
+.how-it-works-container {
   height: 76rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
