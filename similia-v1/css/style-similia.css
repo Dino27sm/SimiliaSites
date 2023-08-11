@@ -287,6 +287,13 @@
 .img-gps-coordinates {
   width: 45%;
 }
+
+.map-coordinates-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /***********************************/
 /*         FOOTER Section          */
 /***********************************/
