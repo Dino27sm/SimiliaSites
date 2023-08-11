@@ -288,6 +288,12 @@
   width: 45%;
 }
 
+.contact-location-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
 .map-coordinates-box {
   display: flex;
   align-items: center;
