@@ -275,9 +275,26 @@
   gap: 4rem;
 }
 
-.contact-addess {
-  color: #73563c;
+.contact-info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
   font-weight: 600;
+  line-height: 1.6;
+}
+
+.contact-worktime {
+  line-height: 1.8;
+}
+
+.contact-worktime p {
+  text-decoration: underline;
+}
+
+.table-worktime {
+  table-layout: auto;
+  width: 50%;
 }
 
 .img-location-map {
