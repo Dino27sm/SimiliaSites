@@ -291,6 +291,10 @@
   font-weight: 600;
 }
 
+.phone-num {
+  padding-top: 1.1rem;
+}
+
 .table-worktime {
   table-layout: auto;
   width: 65%;
