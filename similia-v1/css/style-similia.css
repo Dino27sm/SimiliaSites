@@ -352,7 +352,7 @@
 }
 
 .footer-logo-img {
-  height: 2.2rem;
+  height: 3.2rem;
 }
 
 .copyrights {
@@ -360,6 +360,19 @@
   padding-left: 3.4rem;
   color: rgba(243, 243, 243, 0.8);
 }
+
+.footer-link {
+  text-decoration: none;
+  color: #f3f3f3;
+}
+
+.footer-heading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding-top: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
 /***********************************/
 /*         TEST Section          */
 /***********************************/
